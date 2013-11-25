@@ -1,0 +1,294 @@
+[Thread-0] 25 Nov 2013 15:52:10,762  INFO JavaAgent - ####################################################################################
+[Thread-0] 25 Nov 2013 15:52:10,763  INFO JavaAgent - Java Agent Directory [/apps/lriservers/appDynamics/Agent]
+[Thread-0] 25 Nov 2013 15:52:10,763  INFO JavaAgent - Using Java Agent Version [Server Agent v3.7.5.0 GA #2013-06-24_15-31-38 r0e128d1327d0bebdf06fa72e0f1b9311694284af 3]
+[Thread-0] 25 Nov 2013 15:52:10,774  INFO AgentKernel - Starting Java Agent at Mon Nov 25 15:52:10 EST 2013 ...
+[Thread-0] 25 Nov 2013 15:52:10,775  INFO AgentKernel - JVM Runtime: 
+	java.home=/usr/java/jdk1.7.0_25/jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.runtime.version=1.7.0_25-b15
+[Thread-0] 25 Nov 2013 15:52:10,776  INFO AgentKernel - OS Runtime: 
+	os.name=Linux
+	os.arch=amd64
+	os.version=2.6.18-308.4.1.el5
+[Thread-0] 25 Nov 2013 15:52:10,778  INFO AgentKernel - JVM Args : -javaagent:/apps/lriservers/appDynamics/Agent/javaagent.jar | -Dappdynamics.agent.applicationName=JPMorgan.LRI.AGG.ENG.STRESS_AD_60 | -Dappdynamics.agent.tierName=MAPPER | -Dappdynamics.agent.nodeName=211 | -Dlri.log.dir=/apps/lriservers/aggEngineSTRESS_AD_60/log | -Dnode.id=startUp | -Xms14g | -Xmx14g | -Djava.security.egd=file:///dev/urandom | -Dnode.properties.filename=211.properties | -Dnode.id=211 | -Xdebug | -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=75211 | 
+[Thread-0] 25 Nov 2013 15:52:10,778  INFO AgentKernel - Running obfuscated agent
+[Thread-0] 25 Nov 2013 15:52:10,842  INFO XMLConfigManager - Orchestration is disabled - disabling virtualization resolvers by default.
+[Thread-0] 25 Nov 2013 15:52:10,851  INFO XMLConfigManager - Default Controller Info Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,851  INFO XMLConfigManager - Default Controller Info Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,851  INFO XMLConfigManager - Default Host Identifier Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,852  INFO XMLConfigManager - Default Host Identifier Resolver using host name for unique host identifier [lri4lu060.svr.us.jpmchase.net]
+[Thread-0] 25 Nov 2013 15:52:10,852  INFO XMLConfigManager - Default Host Identifier Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,852  INFO XMLConfigManager - Default IP Address Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,856  INFO XMLConfigManager - Default IP Address Resolver found IP addresses [[169.89.178.24, 10.17.225.20]]
+[Thread-0] 25 Nov 2013 15:52:10,856  INFO XMLConfigManager - Default IP Address Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,856  INFO XMLConfigManager - Default Agent Account Info Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,856  INFO XMLConfigManager - Default Agent Account Info Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,856  INFO XMLConfigManager - Full Agent Registration Info Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,857  INFO XMLConfigManager - Full Agent Registration Info Resolver using system property [appdynamics.agent.applicationName] for application name [JPMorgan.LRI.AGG.ENG.STRESS_AD_60]
+[Thread-0] 25 Nov 2013 15:52:10,857  INFO XMLConfigManager - Full Agent Registration Info Resolver using system property [appdynamics.agent.tierName] for tier name [MAPPER]
+[Thread-0] 25 Nov 2013 15:52:10,857  INFO XMLConfigManager - Full Agent Registration Info Resolver using system property [appdynamics.agent.nodeName] for node name [211]
+[Thread-0] 25 Nov 2013 15:52:10,862  INFO XMLConfigManager - Full Agent Registration Info Resolver using application name [JPMorgan.LRI.AGG.ENG.STRESS_AD_60]
+[Thread-0] 25 Nov 2013 15:52:10,863  INFO XMLConfigManager - Full Agent Registration Info Resolver using tier name [MAPPER]
+[Thread-0] 25 Nov 2013 15:52:10,863  INFO XMLConfigManager - Full Agent Registration Info Resolver using node name [211]
+[Thread-0] 25 Nov 2013 15:52:10,863  INFO XMLConfigManager - Full Agent Registration Info Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,863  INFO XMLConfigManager - XML Controller Info Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,869  INFO XMLConfigManager - XML Controller Info Resolver using controller host [169.69.153.136]
+[Thread-0] 25 Nov 2013 15:52:10,869  INFO XMLConfigManager - XML Controller Info Resolver using controller port [8090]
+[Thread-0] 25 Nov 2013 15:52:10,870  INFO XMLConfigManager - XML Controller Info Resolver found valid config [Controller Host: 169.69.153.136; Controller Port: 8090; ssl-enabled: false]
+[Thread-0] 25 Nov 2013 15:52:10,870  INFO XMLConfigManager - XML Controller Info Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:10,870  INFO XMLConfigManager - XML Agent Account Info Resolver is running
+[Thread-0] 25 Nov 2013 15:52:10,876  INFO XMLConfigManager - XML Agent Account Info Resolver did not find account name. Using default account name [customer1]
+[Thread-0] 25 Nov 2013 15:52:10,876  INFO XMLConfigManager - XML Agent Account Info Resolver did not find account access key. Using default account access key [SJ5b2m7d1$354]
+[Thread-0] 25 Nov 2013 15:52:10,876  INFO XMLConfigManager - XML Agent Account Info Resolver finished running
+[Thread-0] 25 Nov 2013 15:52:11,197  INFO AgentConfigWatchdog - Agent overwrite set to false
+[Thread-0] 25 Nov 2013 15:52:11,217  INFO XMLConfigManager - Node will not be marked as historical at shutdown
+[Thread-0] 25 Nov 2013 15:52:11,296  INFO LifeCycleManager - Starting service [JMXService]
+[Thread-0] 25 Nov 2013 15:52:11,313  INFO JMXService - ###### Using config from controller for JMX operations #########
+[Thread-0] 25 Nov 2013 15:52:11,317  INFO ServerMBeanManagerVersion2 - Initialized MBean Finder with delay=120 secs
+[Thread-0] 25 Nov 2013 15:52:11,319  INFO JMXService - Server JMX metric collection initialized with update interval [60] seconds
+[Thread-0] 25 Nov 2013 15:52:11,334  INFO MemoryMetricGenerator - Identified minor collection bean :PS Scavenge
+[Thread-0] 25 Nov 2013 15:52:11,334  INFO MemoryMetricGenerator - Identified major collection bean :PS MarkSweep
+[Thread-0] 25 Nov 2013 15:52:11,335  INFO MemoryMetricGenerator - Initialized Minor Collection GC metrics
+[Thread-0] 25 Nov 2013 15:52:11,335  INFO MemoryMetricGenerator - Initialized Major Collection GC metrics
+[Thread-0] 25 Nov 2013 15:52:11,335  INFO MemoryMetricGenerator - Initialized Ovearll GC metrics
+[Thread-0] 25 Nov 2013 15:52:11,336  INFO MemoryMetricGenerator - Initialized Perm Gen Memory Tracker with Pool Bean [PS Perm Gen]
+[Thread-0] 25 Nov 2013 15:52:11,336  INFO MemoryMetricGenerator - Initialized Memory Pool MX Beans [Code Cache, PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+[Thread-0] 25 Nov 2013 15:52:11,338  INFO JVMMetricReporter - Number of processors 80
+[Thread-0] 25 Nov 2013 15:52:11,339  INFO JMXService - JVM JMX Metric collection initialized with update interval [60] seconds
+[Thread-0] 25 Nov 2013 15:52:11,340  INFO LifeCycleManager - Started service [JMXService]
+[Thread-0] 25 Nov 2013 15:52:11,340  INFO LifeCycleManager - Starting service [Agent16Service]
+[Thread-0] 25 Nov 2013 15:52:11,346  INFO LifeCycleManager - Started service [Agent16Service]
+[Thread-0] 25 Nov 2013 15:52:11,346  INFO LifeCycleManager - Starting service [BCIEngine]
+[Thread-0] 25 Nov 2013 15:52:11,401  INFO ClassMemoryLimitTracker - Class Memory limit check before retransform  is enabled
+[Thread-0] 25 Nov 2013 15:52:11,401  INFO Java16AgentService - Class retransformation supported in current JVM version
+[Thread-0] 25 Nov 2013 15:52:11,409  INFO InstrumentationHandler - Registered class file transformer for re-transformation
+[Thread-0] 25 Nov 2013 15:52:11,415  INFO LifeCycleManager - Started service [BCIEngine]
+[Thread-0] 25 Nov 2013 15:52:11,416  INFO LifeCycleManager - Starting service [AgentDiagnosticsService]
+[Thread-0] 25 Nov 2013 15:52:11,453  INFO AgentDiagnosticConfig - Setting Memory Monitor Enabled false
+[Thread-0] 25 Nov 2013 15:52:11,453  INFO AgentDiagnosticConfig - Memory Monitor max stack depth set to 500000
+[Thread-0] 25 Nov 2013 15:52:11,453  INFO AgentDiagnosticConfig - Memory Monitor total objects set to 500000
+[Thread-0] 25 Nov 2013 15:52:11,454  INFO MemoryMonitor - Updated monitor class names []. Removed all tracked method objects.
+[Thread-0] 25 Nov 2013 15:52:11,455  INFO AgentDiagnosticConfig - Setting Thread Dump Enabled false
+[Thread-0] 25 Nov 2013 15:52:11,455  INFO AgentDiagnosticsService - Seeting up Thread dump logger to Log4j based logger context com.singularity.diagnostics.ThreadDumpLogger
+[Thread-0] 25 Nov 2013 15:52:11,456  INFO ThreadDumpLogger - #############################################################
+[Thread-0] 25 Nov 2013 15:52:11,456  INFO ThreadDumpLogger - Agent Diagnostics Logs at Mon Nov 25 15:52:11 EST 2013
+[Thread-0] 25 Nov 2013 15:52:11,456  INFO ThreadDumpLogger - #############################################################
+[Thread-0] 25 Nov 2013 15:52:11,456  INFO AgentDiagnosticConfig - Setting Shutdown hook Enabled false
+[Thread-0] 25 Nov 2013 15:52:11,456  INFO AgentDiagnosticsService - JVM Shutdown hook is disabled
+[Thread-0] 25 Nov 2013 15:52:11,465  INFO AgentDiagnosticsService - Starting up Agent Diagnostic Logger, setting up Thread dump frequency to [300] seconds
+[Thread-0] 25 Nov 2013 15:52:11,465  INFO MemoryMonitor - BCI Rules to apply for Methods[null]
+[Thread-0] 25 Nov 2013 15:52:11,465  INFO MethodRuleApplier - Finished applying new rule set for {}
+[Thread-0] 25 Nov 2013 15:52:11,467  INFO MemoryMonitor - Clearing all current objects from methods being tracked {}
+[Thread-0] 25 Nov 2013 15:52:11,467  INFO MemoryMonitor - BCI Rules to apply for Classes[null]
+[Thread-0] 25 Nov 2013 15:52:11,467  INFO ClassRuleApplier - Finished applying new rule set for []
+[Thread-0] 25 Nov 2013 15:52:11,467  INFO MemoryMonitor - Updated object names to log []
+[Thread-0] 25 Nov 2013 15:52:11,467  INFO MemoryMonitor - Memory Monitor started with enabled[false], interval[10]
+[Thread-0] 25 Nov 2013 15:52:11,468  INFO MethodRuleApplier - Finished applying new rule set for {}
+[Thread-0] 25 Nov 2013 15:52:11,468  INFO LifeCycleManager - Started service [AgentDiagnosticsService]
+[Thread-0] 25 Nov 2013 15:52:11,468  INFO LifeCycleManager - Starting service [ObjectMonitoringService]
+[Thread-0] 25 Nov 2013 15:52:11,554  INFO ObjectMonitoringService - ObjectMonitoringService property enable-collection-monitoring changed to false
+[Thread-0] 25 Nov 2013 15:52:11,554  INFO ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to false
+[Thread-0] 25 Nov 2013 15:52:11,554  INFO ObjectMonitoringService - ObjectMonitoringService property collection-capture-period-in-minutes changed to 30
+[Thread-0] 25 Nov 2013 15:52:11,555  INFO ObjectMonitoringService - ObjectMonitoringService property enable-instance-monitoring changed to false
+[Thread-0] 25 Nov 2013 15:52:11,555  INFO ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 30
+[Thread-0] 25 Nov 2013 15:52:11,555  INFO ObjectMonitoringService - ObjectMonitoringService property enable-object-size-monitoring changed to false
+[Thread-0] 25 Nov 2013 15:52:11,567  INFO ObjectMonitoringService - ObjectMonitoringService property minimum-size-for-evaluation-in-mb changed to 5
+[Thread-0] 25 Nov 2013 15:52:11,568  INFO LifeCycleManager - Started service [ObjectMonitoringService]
+[Thread-0] 25 Nov 2013 15:52:11,568  INFO LifeCycleManager - Starting service [SnapshotService]
+[Thread-0] 25 Nov 2013 15:52:11,629  INFO SnapshotBuffer - Hotspot snapshot buffer config: Config{numOfLargeBuckets=30, largeBucketSize=3, numOfSmallBuckets=170, smallBucketSize=1, maxBuckets=200, totalSlots=260}
+[Thread-0] 25 Nov 2013 15:52:11,633  INFO CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -null
+[Thread-0] 25 Nov 2013 15:52:11,633  INFO CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -null
+[Thread-0] 25 Nov 2013 15:52:11,633  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+[Thread-0] 25 Nov 2013 15:52:11,633  INFO CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -null
+[Thread-0] 25 Nov 2013 15:52:11,633  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+[Thread-0] 25 Nov 2013 15:52:11,634  INFO CallGraphConfigHandler - Call Graph Config Changed  hotspot-granularity-in-ms  Value -null
+[Thread-0] 25 Nov 2013 15:52:11,637  INFO RequestSegmentDataReporter - Request Segment Data reporter setup to report at interval [10000]
+[Thread-0] 25 Nov 2013 15:52:11,643  INFO ApplicationStartupPolicy - Startup policy false
+[Thread-0] 25 Nov 2013 15:52:11,666  INFO LifeCycleManager - Started service [SnapshotService]
+[Thread-0] 25 Nov 2013 15:52:11,667  INFO LifeCycleManager - Starting service [TransactionMonitoringService]
+[Thread-0] 25 Nov 2013 15:52:11,793  INFO SlowAndStallRequestMonitor - Stall Request checker setup
+[Thread-0] 25 Nov 2013 15:52:11,793  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 300 ms, at interval 300 ms.
+[Thread-0] 25 Nov 2013 15:52:11,796  INFO Java16DeadlockDetector - Deadlock Detector is scheduled to run every [300] seconds.
+[Thread-0] 25 Nov 2013 15:52:11,810  INFO LoggerRuleApplier - Log4j, JDK. Commons logger rules applied
+[Thread-0] 25 Nov 2013 15:52:11,821  INFO LoggerMessageProcessor - LoggerMessageProcessor is scheduled to run: com.singularity.ee.util.zb@527a901f
+[Thread-0] 25 Nov 2013 15:52:11,825  INFO AgentErrorProcessor - AgentErrorProcessor is scheduled to run: com.singularity.ee.util.zb@412e32ab
+[Thread-0] 25 Nov 2013 15:52:11,831  INFO ErrorRegistry - Error Registry initialized
+[Thread-0] 25 Nov 2013 15:52:11,843  INFO JVMThreadCPUTimeCalculator - BT CPU Monitoring will stay enabled. Time taken to calculate Thread CPU Time for [1000] iterations is [1 ms] which is within the allowed budget of [10 ms]
+[Thread-0] 25 Nov 2013 15:52:11,888  INFO AnnotationPropertyListenerManager - Will propagate value of property [group-unmonitoried-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.sg.e(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.sg 1
+[Thread-0] 25 Nov 2013 15:52:11,889  INFO TransactionMonitoringService - TMS.Configure >> setting [use-new-async-correlation] to false
+[Thread-0] 25 Nov 2013 15:52:11,889  INFO TransactionMonitoringService - TMS.Configure >> [use-flat-thread-chain-model] to true
+[Thread-0] 25 Nov 2013 15:52:11,904  INFO TransactionMonitoringService - Initialized [OLD] TransactionDelegate
+[Thread-0] 25 Nov 2013 15:52:11,906  INFO AsyncCorrelationADDRepository - Started ADD Registration thread to run every [100] ms
+[Thread-0] 25 Nov 2013 15:52:11,907  INFO AsyncCorrelationADDRepository - Max Async Task Registrations allowed [500]
+[Thread-0] 25 Nov 2013 15:52:11,928  INFO JDBCRuleApplier - Enabled JDBC Driver support for 10 drivers
+[Thread-0] 25 Nov 2013 15:52:11,929  INFO JDBCRuleApplier - DBCam integration enabled=false
+[Thread-0] 25 Nov 2013 15:52:11,931  INFO JDBCRuleApplier - Enabled JDBC Driver support for 10 drivers
+[Thread-0] 25 Nov 2013 15:52:11,931  INFO JDBCRuleApplier - DBCam integration enabled=false
+[Thread-0] 25 Nov 2013 15:52:11,932  INFO JDBCConfiguration - Applying property config-file-path, val transactions.xml
+[Thread-0] 25 Nov 2013 15:52:11,952  INFO LifeCycleManager - Started service [TransactionMonitoringService]
+[Thread-0] 25 Nov 2013 15:52:11,967  INFO ConfigurationChannel - JVM Runtime Name: 14526@lri4lu060.svr.us.jpmchase.net
+[Thread-0] 25 Nov 2013 15:52:11,967  INFO ConfigurationChannel - JVM PID: 14526
+[Thread-0] 25 Nov 2013 15:52:11,968  INFO ConfigurationChannel - Detected node meta info: [Name:ProcessID, Value:14526, Name:appdynamics.ip.addresses, Value:169.89.178.24,10.17.225.20]
+[Thread-0] 25 Nov 2013 15:52:11,968  INFO ConfigurationChannel - Sending Registration request with: Application Name [JPMorgan.LRI.AGG.ENG.STRESS_AD_60], Tier Name [MAPPER], Node Name [211], Host Name [lri4lu060.svr.us.jpmchase.net] Node Unique Local ID [211], Version [Server Agent v3.7.5.0 GA #2013-06-24_15-31-38 r0e128d1327d0bebdf06fa72e0f1b9311694284af 3]
+[Thread-0] 25 Nov 2013 15:52:12,335  INFO ConfigurationChannel - Auto agent registration attempted: Application Name [JPMorgan.LRI.AGG.ENG.STRESS_AD_60] Component Name [MAPPER] Node Name [211]
+[Thread-0] 25 Nov 2013 15:52:12,336  INFO ConfigurationChannel - Auto agent registration SUCCEEDED!
+[Thread-0] 25 Nov 2013 15:52:12,336  INFO ConfigurationChannel - Registration information received Node ID[250] Component ID[74] Application ID [84]
+[Thread-0] 25 Nov 2013 15:52:12,548  INFO ConfigurationChannel - Account edition from controller = ENTERPRISE
+[Thread-0] 25 Nov 2013 15:52:12,548  INFO ConfigurationChannel - New account profile [AccountProfile [dataRetentionInMinutes=-1, agentTypesSupported=[APP_AGENT, DOT_NET_APP_AGENT, DOT_NET_MACHINE_AGENT, MACHINE_AGENT], automationEnabled=true, azureAutoScalingEnabled=false, systemsPanelEnabled=true, memoryMonitoringEnabled=true, startDateOfTrial=null, endDateOfTrial=null, businessTransactionLimit=50, nodeLimit=-1, transactionCorrelationEnabled=true, snapshotsEnabled=true, snapshotsWithFullCallGraphsEnabled=true, automaticSnapshotsForSlowAndErrorRequestsEnabled=true, sqlDiagnosticsEnabled=true, hardwareMonitoringEnabled=true, jvmMonitoringEnabled=true, clrMonitoringEnabled=true, endUserExperienceMonitoringEnabled=true, backendDetectionEnabled=true, errorMonitoringEnabled=true, customDashboardsEnabled=true, reportingEnabled=true, baselinesEnabled=true, advancedAnalysisEnabled=true, policiesEnabled=true, alertingEnabled=true, informationPointsEnabled=true, topCallsEnabled=true, problemsEnabled=true, informationalEventsEnabled=true, metricBrowserEnabled=true, timestamp=1383232411302, dataCollectorsEnabled=true, customExitPointsEnabled=true, restAPIEnabled=true, maxApplications=-1, maxPolicies=-1, edition=ENTERPRISE, controllerBusinessTransactionLimitPerApplication=200]]
+[Thread-0] 25 Nov 2013 15:52:12,550  INFO ConfigurationChannel - Business transaction limit updated to 50
+[Thread-0] 25 Nov 2013 15:52:12,550  INFO ConfigurationChannel - Controller version [3.7.5]
+[Thread-0] 25 Nov 2013 15:52:12,552  INFO AgentConfigWatchdog - Received properties from controller, going to refresh.
+[Thread-0] 25 Nov 2013 15:52:12,553  INFO AgentConfigWatchdog - ************ Started applying service properties from controller ***************
+[Thread-0] 25 Nov 2013 15:52:12,553  INFO ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to 
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO AnnotationPropertyListenerManager - Propogating disable-collection-capture value 
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO LeakManager - Property changed leak-diagnostic-interval-in-minutes, Val [30]
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO LeakManager - Changing leak diagnostic capture interval to 30
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO AnnotationPropertyListenerManager - Propogating leak-diagnostic-interval-in-minutes value 30
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO ApplicationStartupPolicy - Setting 'enable-startup-snapshot-policy' with value 'false'
+[Thread-0] 25 Nov 2013 15:52:12,554  INFO AnnotationPropertyListenerManager - Propogating enable-startup-snapshot-policy value false
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -0
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO AnnotationPropertyListenerManager - Propogating callgraph-granularity-in-ms value 0
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO AnnotationPropertyListenerManager - Propogating show-packages value 
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO AnnotationPropertyListenerManager - Propogating dont-show-packages value 
+[Thread-0] 25 Nov 2013 15:52:12,555  INFO TransactionSnapshotService - Reset min-duration-for-jdbc-call-in-ms with new value 10
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO AnnotationPropertyListenerManager - Propogating min-duration-for-jdbc-call-in-ms value 10
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO TransactionSnapshotService - Reset adaptive-callgraph-granularity with new value false
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO AnnotationPropertyListenerManager - Propogating adaptive-callgraph-granularity value false
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO TransactionSnapshotService - Reset max-jdbc-calls-per-snapshot with new value 500
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO AnnotationPropertyListenerManager - Propogating max-jdbc-calls-per-snapshot value 500
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO AnnotationPropertyListenerManager - Propogating on-demand-snapshots value false
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO TransactionSnapshotService - Reset max-jdbc-calls-per-callgraph with new value 100
+[Thread-0] 25 Nov 2013 15:52:12,556  INFO AnnotationPropertyListenerManager - Propogating max-jdbc-calls-per-callgraph value 100
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO BCIEngineService - BCIEngine service property enable-xml-bci-rules changed, new value false
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO AnnotationPropertyListenerManager - Propogating enable-xml-bci-rules value false
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO BCIEngineService - BCIEngine service property enable-json-bci-rules changed, new value false
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO AnnotationPropertyListenerManager - Propogating enable-json-bci-rules value false
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO AnnotationPropertyListenerManager - Propogating async-transaction-demarcator value 
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO TransactionMonitor - Applying 'min-load-per-minute-diagnostic-session-trigger', '10'
+[Thread-0] 25 Nov 2013 15:52:12,557  INFO TransactionMonitor - Minimum load per min on a BT to trigger diagnostic session on agent [10] requests.
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO AnnotationPropertyListenerManager - Propogating min-load-per-minute-diagnostic-session-trigger value 10
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO JDBCRuleApplier - Property jdbc-connections, Value 
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO AnnotationPropertyListenerManager - Propogating jdbc-connections value 
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO TransactionMonitor - Applying 'downstream-tx-detection-enabled', 'false'
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO AnnotationPropertyListenerManager - Propogating downstream-tx-detection-enabled value false
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO TransactionMonitor - Applying 'slow-request-monitor-interval', '100'
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 100 ms, at interval 100 ms.
+[Thread-0] 25 Nov 2013 15:52:12,558  INFO AnnotationPropertyListenerManager - Propogating slow-request-monitor-interval value 100
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-correlation-for], value[]
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO AnnotationPropertyListenerManager - Propogating disable-exit-call-correlation-for value 
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO JDBCConfiguration - Applying property capture-raw-sql, val false
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO AnnotationPropertyListenerManager - Propogating capture-raw-sql value false
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO TransactionMonitor - Applying 'max-business-transactions', '50'
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO BusinessTransactionRegistry - Max transactions set to 50
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO TransactionMonitor - Agent will identify a maximum of [50] business transactions.
+[Thread-0] 25 Nov 2013 15:52:12,559  INFO AnnotationPropertyListenerManager - Propogating max-business-transactions value 50
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO LatencyMonitoringConfiguration - End to End latency montioring is disabled
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO AnnotationPropertyListenerManager - Propogating end-to-end-message-latency-threshold-millis value 0
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO TransactionMonitor - Applying 'enable-transaction-correlation', 'true'
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO AnnotationPropertyListenerManager - Propogating enable-transaction-correlation value true
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO TransactionMonitor - Applying 'slow-request-deviation', '200'
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO AnnotationPropertyListenerManager - Propogating slow-request-deviation value 200
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO JDBCRuleApplier - Property jdbc-prepared-statements, Value 
+[Thread-0] 25 Nov 2013 15:52:12,560  INFO AnnotationPropertyListenerManager - Propogating jdbc-prepared-statements value 
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO TransactionWatchman - Property api-thread-activity-timeout-in-seconds, Value 300
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO AnnotationPropertyListenerManager - Propogating api-thread-activity-timeout-in-seconds value 300
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO AnnotationPropertyListenerManager - Propogating log-request-payload value false
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO JDBCRuleApplier - Property jdbc-statements, Value 
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO AnnotationPropertyListenerManager - Propogating jdbc-statements value 
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO ExitPointRuleApplier - ExitPointRuleApplier property disable-custom-exit-points-for value []
+[Thread-0] 25 Nov 2013 15:52:12,561  INFO AnnotationPropertyListenerManager - Propogating disable-custom-exit-points-for value 
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO TransactionMonitor - Applying 'slow-request-threshold', '500'
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 500 ms, at interval 500 ms.
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO AnnotationPropertyListenerManager - Propogating slow-request-threshold value 500
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO ServletRuleApplier - Applying property capture-error-urls, true
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO AnnotationPropertyListenerManager - Propogating capture-error-urls value true
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO TransactionMonitor - Applying 'enable-default-http-error-code-reporter', 'true'
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO AnnotationPropertyListenerManager - Propogating enable-default-http-error-code-reporter value true
+[Thread-0] 25 Nov 2013 15:52:12,562  INFO JDBCRuleApplier - Property jdbc-callable-statements, Value 
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO AnnotationPropertyListenerManager - Propogating jdbc-callable-statements value 
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO TransactionWatchman - Property api-transaction-timeout-in-seconds, Value 300
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO AnnotationPropertyListenerManager - Propogating api-transaction-timeout-in-seconds value 300
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO AnnotationPropertyListenerManager - Propogating find-entry-points value false
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-metrics-for], value[]
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO AnnotationPropertyListenerManager - Propogating disable-exit-call-metrics-for value 
+[Thread-0] 25 Nov 2013 15:52:12,563  INFO AgentConfigWatchdog - ------------ Finished applying service properties from controller ---------------
+
+[Thread-0] 25 Nov 2013 15:52:12,564  INFO EUMConfig - EUM injected JS code template: ;/* Version fc8d91f0b0f67262ba49507d26e271f4 #2013-06-24_15-31-38 r0e128d1327d0b...
+[Thread-0] 25 Nov 2013 15:52:12,565  INFO EUMConfig - EUM beacon URL: col.eum-appdynamics.com
+[Thread-0] 25 Nov 2013 15:52:12,565  INFO EUMConfig - EUM async JS file URL: de8of677fyt0b.cloudfront.net
+[Thread-0] 25 Nov 2013 15:52:12,565  INFO EUMConfig - Disabling manual injection rules
+[Thread-0] 25 Nov 2013 15:52:12,578  INFO TransactionConfigUpdater - Updating transactions.xml to /apps/lriservers/appDynamics/Agent/conf/211/transactions.xml
+[Thread-0] 25 Nov 2013 15:52:12,667  WARN EntryPointConfigParser - Unsupported match type STARTSWITHin exclude rule.
+[Thread-0] 25 Nov 2013 15:52:12,724  INFO TransactionMonitor - Setting Excluded BTs [EMPTY]
+[Thread-0] 25 Nov 2013 15:52:12,738  INFO ErrorMonitor - Setting ignore exceptions to :[]
+[Thread-0] 25 Nov 2013 15:52:12,738  INFO ErrorMonitor - Setting ignore message patterns to :[]
+[Thread-0] 25 Nov 2013 15:52:12,742  INFO ErrorMonitor - Setting max frames in root cause to :5
+[Thread-0] 25 Nov 2013 15:52:12,743  INFO ErrorMonitor - Setting stack trace line limit to :0
+[Thread-0] 25 Nov 2013 15:52:12,744  INFO LoggerRuleApplier - Applying Custom Logger Rules :: []
+[Thread-0] 25 Nov 2013 15:52:12,744  INFO ErrorMonitor - Setting excluded logger names to : []
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - JDK Exception Logger disabled set to false
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - JDK Message Logger disabled set to false
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - Log4j Exception Logger disabled set to false
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - Log4j Message Logger disabled set to false
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - Capture of error and fatal logger error messages disabled set to false
+[Thread-0] 25 Nov 2013 15:52:12,745  INFO ErrorMonitor - Setting ignore logger msg patters to : []
+[Thread-0] 25 Nov 2013 15:52:12,762  INFO TransactionMonitoringService - Exit point delegate initialized for RMI
+[Thread-0] 25 Nov 2013 15:52:12,770  INFO TransactionMonitoringService - Exit point delegate configured for RMI with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,770  INFO TransactionMonitoringService - Exit point delegate initialized for HTTP
+[Thread-0] 25 Nov 2013 15:52:12,773  INFO TransactionMonitoringService - Exit point delegate configured for HTTP with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,773  INFO TransactionMonitoringService - Exit point delegate initialized for WEB_SERVICE
+[Thread-0] 25 Nov 2013 15:52:12,776  INFO TransactionMonitoringService - Exit point delegate configured for WEB_SERVICE with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,777  INFO TransactionMonitoringService - Exit point delegate initialized for CASSANDRA
+[Thread-0] 25 Nov 2013 15:52:12,781  INFO TransactionMonitoringService - Exit point delegate configured for CASSANDRA with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,781  INFO TransactionMonitoringService - Exit point delegate initialized for JMS
+[Thread-0] 25 Nov 2013 15:52:12,783  INFO TransactionMonitoringService - Exit point delegate configured for JMS with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,783  INFO TransactionMonitoringService - Exit point delegate initialized for THRIFT
+[Thread-0] 25 Nov 2013 15:52:12,784  INFO TransactionMonitoringService - Exit point delegate configured for THRIFT with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,784  INFO TransactionMonitoringService - Exit point delegate initialized for MQ
+[Thread-0] 25 Nov 2013 15:52:12,786  INFO TransactionMonitoringService - Exit point delegate configured for MQ with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,786  INFO TransactionMonitoringService - Exit point delegate initialized for JDBC
+[Thread-0] 25 Nov 2013 15:52:12,788  INFO TransactionMonitoringService - Exit point delegate configured for JDBC with number of configurations 1
+[Thread-0] 25 Nov 2013 15:52:12,788  INFO BTOverflowCounter - Transactions cleanup detected. Resetting overflow transaction timer.
+[Thread-0] 25 Nov 2013 15:52:12,789  INFO CallGraphFilteringConfig - Setting Callgraph package excludes [java, javax, com.sun, sun, org, com.bea, com.weblogic, weblogic, com.ibm, com.mysql, com.oracle, oracle, com.microsoft.sqlserver, com.opensymphony, net.sf, jrockit, kodo, com.pointbase, persistence.antlr, com.informix, com.sybase.jdbc2, com.sybase.jdbc3, com.sybase.jdbc4]
+[Thread-0] 25 Nov 2013 15:52:12,789  INFO CallGraphFilteringConfig - Setting Callgraph package always show [com.sun.jersey, org.apache.openejb, org.apache.cassandra, org.apache.camel.example, org.apache.camel.component.seda, org.mule.processor, org.jboss.soa.esb.client]
+[Thread-0] 25 Nov 2013 15:52:12,789  INFO TransactionMonitoringService - Received application configuration property [is-async-activity-supported]=true
+[Thread-0] 25 Nov 2013 15:52:12,792  INFO ConfigurationChannel - Initialized app agent with latest configuration from controller
+[Thread-0] 25 Nov 2013 15:52:12,818  INFO XMLConfigManager - Agent will poll for new configuration from controller every [60] seconds
+[Thread-0] 25 Nov 2013 15:52:12,846  INFO TransactionMonitoringService - Reading transaction config file from the controller.
+[Thread-0] 25 Nov 2013 15:52:12,856  INFO TransactionMonitoringService - Parsed Transaction definitions successfully from [/apps/lriservers/appDynamics/Agent/conf/211/transactions.xml]
+[Thread-0] 25 Nov 2013 15:52:12,862  WARN EntryPointConfigParser - Unsupported match type STARTSWITHin exclude rule.
+[Thread-0] 25 Nov 2013 15:52:12,881  INFO ServletEntryPointDelegate - Servlet Monitoring is enabled
+[Thread-0] 25 Nov 2013 15:52:12,910  INFO ServletRuleApplier - Adding SPRING MVC dispatcher rules
+[Thread-0] 25 Nov 2013 15:52:12,911  INFO ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+[Thread-0] 25 Nov 2013 15:52:12,912  INFO ServletRuleApplier - Applying Mule HTTP Receiver rules
+[Thread-0] 25 Nov 2013 15:52:12,916  INFO ServletRuleApplier - Applying URI Capture rules
+[Thread-0] 25 Nov 2013 15:52:12,922  INFO SpringBeanEntryPointDelegate - Spring Bean Monitoring is enabled
+[Thread-0] 25 Nov 2013 15:52:12,925  INFO SpringRuleApplier - Applying Spring MVC rules , Spring Bean Auto Discovery is enabled
+[Thread-0] 25 Nov 2013 15:52:12,935  INFO EJBEntryPointDelegate - Applying RMI Rules
+[Thread-0] 25 Nov 2013 15:52:12,935  INFO RMIRuleApplier - Applying JBoss Remoting Rules
+[Thread-0] 25 Nov 2013 15:52:12,946  INFO RMIRuleApplier - Applying Websphere RMI-IIOP Rules
+[Thread-0] 25 Nov 2013 15:52:12,966  INFO POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [2]
+[Thread-0] 25 Nov 2013 15:52:12,968  INFO JMSEntryPointDelegate - JMS monitoring is enabled
+[Thread-0] 25 Nov 2013 15:52:12,971  INFO JMSEntryPointDelegate - Adding MDB Annotation onMessage rule 
+[Thread-0] 25 Nov 2013 15:52:12,971  INFO JMSEntryPointDelegate - Adding Spring Integration MDB rule 
+[Thread-0] 25 Nov 2013 15:52:13,060  INFO MQExitPointDelegate - MQ put/get rules registered
+[Thread-0] 25 Nov 2013 15:52:13,247  INFO BCIFixer - Scheduling BCIFixer at [900000] ms intervals.
+[Thread-0] 25 Nov 2013 15:52:13,248  INFO DynamicRulesManager - Reading current dynamic rules from [/apps/lriservers/appDynamics/Agent/conf/211/bcirules.xml]
+[Thread-0] 25 Nov 2013 15:52:13,251  INFO TransactionConfigChannel - Applying out of the box exit point rules
+[Thread-0] 25 Nov 2013 15:52:13,277  INFO ExitPointRuleApplier - Adding rules for exit point type [[RMI, SAP, LDAP, Mail]]
+[Thread-0] 25 Nov 2013 15:52:13,277  INFO TransactionMonitoringService - Initializing thread delegate and resetting transaction delegate if needed. The current value of [use-new-async-correlation]=true
+[Thread-0] 25 Nov 2013 15:52:13,290  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 25 Nov 2013 15:52:13,290  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 25 Nov 2013 15:52:13,291  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 25 Nov 2013 15:52:13,291  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 25 Nov 2013 15:52:13,291  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 25 Nov 2013 15:52:13,292  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+[Thread-0] 25 Nov 2013 15:52:13,292  INFO TransactionMonitoringService - Initialized [NEW] threads delegate
+[Thread-0] 25 Nov 2013 15:52:13,307  INFO TransactionMonitoringService - Switched to [NEW] transaction delegate
+[Thread-0] 25 Nov 2013 15:52:13,324  INFO AnnotationPropertyListenerManager - Will propagate value of property [enable-async-correlation-for] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.hb.b(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.hb 1
+[Thread-0] 25 Nov 2013 15:52:13,343  INFO JavaAgent - Started AppDynamics Java Agent Successfully.
