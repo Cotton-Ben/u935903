@@ -1,0 +1,6 @@
+Waiting for domain1 to start ........................................................
+Successfully started the domain : domain1
+domain  Location: /apps/lriservers/AppDynamics2/Controller/appserver/glassfish/domains/domain1
+Log File: /apps/lriservers/AppDynamics2/Controller/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
